@@ -1,7 +1,6 @@
 {
     "serverId": "io.github.github/github-mcp-server",
     "date": "2026-05-20",
-    "versionRange": "^1.0.0",
     "installConfigs": [
         {
             "tool": "theia-ide",
