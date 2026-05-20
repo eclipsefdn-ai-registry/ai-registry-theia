@@ -1,0 +1,17 @@
+{
+    "serverId": "io.github.upstash/context7",
+    "date": "2026-05-20",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "context7": {
+                        "serverUrl": "https://mcp.context7.com/mcp"
+                    }
+                }
+            },
+            "instructions": "Works out of the box without authentication. For higher rate limits, sign up at https://context7.com/dashboard and add your API key to the server config: \"serverAuthToken\": \"<your-api-key>\", \"serverAuthTokenHeader\": \"CONTEXT7_API_KEY\"."
+        }
+    ]
+}
