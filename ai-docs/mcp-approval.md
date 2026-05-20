@@ -59,6 +59,7 @@ Each server entry supports two modes: **local** (stdio) and **remote** (SSE/HTTP
 ## Guidelines
 
 - Use the npm package name from the Anthropic MCP registry as the `<server-name>` key (e.g., `chrome-devtools`, `brave-search`).
+- Prefer remote servers over local (stdio) when a hosted/cloud URL is available.
 - For `command`, prefer `npx` for npm packages, `uvx` for Python packages.
 - Always include `"-y"` in `args` when using `npx` to skip the install prompt.
 - Append `@latest` to the package name in `args` to ensure the latest version.
