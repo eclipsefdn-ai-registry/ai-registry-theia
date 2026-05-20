@@ -1,0 +1,19 @@
+{
+    "serverId": "io.github.github/github-mcp-server",
+    "date": "2026-05-20",
+    "versionRange": "^1.0.0",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "github": {
+                        "serverUrl": "https://api.githubcopilot.com/mcp/",
+                        "serverAuthToken": "<github-pat-or-app-token>"
+                    }
+                }
+            },
+            "instructions": "Replace <github-pat-or-app-token> with a GitHub personal access token (or GitHub App token) that has the scopes required for the GitHub features you want to use. The token is sent as 'Authorization: Bearer <token>'."
+        }
+    ]
+}
