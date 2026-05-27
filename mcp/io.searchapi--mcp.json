@@ -1,0 +1,30 @@
+{
+    "serverId": "io.searchapi/mcp",
+    "date": "2026-05-27",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "searchapi": {
+                        "serverUrl": "https://www.searchapi.io/mcp?token=<your-searchapi-mcp-token>"
+                    }
+                }
+            },
+            "instructions": "Replace <your-searchapi-mcp-token> with an MCP token from https://www.searchapi.io/mcp_integrations. The token is passed as a query parameter on the server URL. Provides real-time web, news, image and other search engine results.",
+            "installUrl": "theia://install-mcp?id=io.searchapi/mcp"
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "searchapi": {
+                        "serverUrl": "https://www.searchapi.io/mcp?token=<your-searchapi-mcp-token>"
+                    }
+                }
+            },
+            "instructions": "Replace <your-searchapi-mcp-token> with an MCP token from https://www.searchapi.io/mcp_integrations. The token is passed as a query parameter on the server URL. Provides real-time web, news, image and other search engine results.",
+            "installUrl": "theia-next://install-mcp?id=io.searchapi/mcp"
+        }
+    ]
+}

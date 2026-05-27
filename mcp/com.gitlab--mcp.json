@@ -1,0 +1,32 @@
+{
+    "serverId": "com.gitlab/mcp",
+    "date": "2026-05-27",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "gitlab": {
+                        "serverUrl": "https://gitlab.com/api/v4/mcp",
+                        "serverAuthToken": "<gitlab-personal-access-token>"
+                    }
+                }
+            },
+            "instructions": "Replace <gitlab-personal-access-token> with a GitLab personal access token that has the 'api' scope (or 'read_api' for read-only). The token is sent as 'Authorization: Bearer <token>'. For self-managed GitLab, change the serverUrl to https://<your-gitlab-host>/api/v4/mcp.",
+            "installUrl": "theia://install-mcp?id=com.gitlab/mcp"
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "gitlab": {
+                        "serverUrl": "https://gitlab.com/api/v4/mcp",
+                        "serverAuthToken": "<gitlab-personal-access-token>"
+                    }
+                }
+            },
+            "instructions": "Replace <gitlab-personal-access-token> with a GitLab personal access token that has the 'api' scope (or 'read_api' for read-only). The token is sent as 'Authorization: Bearer <token>'. For self-managed GitLab, change the serverUrl to https://<your-gitlab-host>/api/v4/mcp.",
+            "installUrl": "theia-next://install-mcp?id=com.gitlab/mcp"
+        }
+    ]
+}

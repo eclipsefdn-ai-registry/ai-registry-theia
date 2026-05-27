@@ -1,0 +1,32 @@
+{
+    "serverId": "co.huggingface/hf-mcp-server",
+    "date": "2026-05-27",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "huggingface": {
+                        "serverUrl": "https://huggingface.co/mcp",
+                        "serverAuthToken": "<huggingface-access-token>"
+                    }
+                }
+            },
+            "instructions": "Replace <huggingface-access-token> with a Hugging Face access token (https://huggingface.co/settings/tokens). The token is sent as 'Authorization: Bearer <token>' and is used to access gated models, your spaces, and personal collections. To use OAuth login instead, change serverUrl to https://huggingface.co/mcp?login and remove the serverAuthToken.",
+            "installUrl": "theia://install-mcp?id=co.huggingface/hf-mcp-server"
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "huggingface": {
+                        "serverUrl": "https://huggingface.co/mcp",
+                        "serverAuthToken": "<huggingface-access-token>"
+                    }
+                }
+            },
+            "instructions": "Replace <huggingface-access-token> with a Hugging Face access token (https://huggingface.co/settings/tokens). The token is sent as 'Authorization: Bearer <token>' and is used to access gated models, your spaces, and personal collections. To use OAuth login instead, change serverUrl to https://huggingface.co/mcp?login and remove the serverAuthToken.",
+            "installUrl": "theia-next://install-mcp?id=co.huggingface/hf-mcp-server"
+        }
+    ]
+}

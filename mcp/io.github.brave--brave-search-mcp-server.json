@@ -1,0 +1,44 @@
+{
+    "serverId": "io.github.brave/brave-search-mcp-server",
+    "date": "2026-05-27",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "brave-search": {
+                        "command": "npx",
+                        "args": [
+                            "-y",
+                            "@brave/brave-search-mcp-server@latest"
+                        ],
+                        "env": {
+                            "BRAVE_API_KEY": "<your-brave-search-api-key>"
+                        }
+                    }
+                }
+            },
+            "instructions": "Replace <your-brave-search-api-key> with a Brave Search API key from https://api.search.brave.com/. Provides web, news, image, video, and local search via the Brave Search API.",
+            "installUrl": "theia://install-mcp?id=io.github.brave/brave-search-mcp-server"
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "brave-search": {
+                        "command": "npx",
+                        "args": [
+                            "-y",
+                            "@brave/brave-search-mcp-server@latest"
+                        ],
+                        "env": {
+                            "BRAVE_API_KEY": "<your-brave-search-api-key>"
+                        }
+                    }
+                }
+            },
+            "instructions": "Replace <your-brave-search-api-key> with a Brave Search API key from https://api.search.brave.com/. Provides web, news, image, video, and local search via the Brave Search API.",
+            "installUrl": "theia-next://install-mcp?id=io.github.brave/brave-search-mcp-server"
+        }
+    ]
+}
