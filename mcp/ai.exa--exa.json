@@ -14,6 +14,19 @@
             },
             "instructions": "Replace <your-exa-api-key> with an Exa API key from https://dashboard.exa.ai/. The token is sent as 'Authorization: Bearer <token>'. Provides neural and keyword web search, content retrieval, and similarity tools via the Exa search API.",
             "installUrl": "theia://install-mcp?id=ai.exa/exa"
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "exa": {
+                        "serverUrl": "https://mcp.exa.ai/mcp",
+                        "serverAuthToken": "<your-exa-api-key>"
+                    }
+                }
+            },
+            "instructions": "Replace <your-exa-api-key> with an Exa API key from https://dashboard.exa.ai/. The token is sent as 'Authorization: Bearer <token>'. Provides neural and keyword web search, content retrieval, and similarity tools via the Exa search API.",
+            "installUrl": "theia-next://install-mcp?id=ai.exa/exa"
         }
     ]
 }
