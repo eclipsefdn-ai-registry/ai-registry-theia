@@ -1,0 +1,48 @@
+{
+    "serverId": "io.github.browserbase/mcp-server-browserbase",
+    "date": "2026-06-01",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "browserbase": {
+                        "command": "npx",
+                        "args": [
+                            "-y",
+                            "@browserbasehq/mcp-server-browserbase@latest"
+                        ],
+                        "env": {
+                            "BROWSERBASE_API_KEY": "<your-browserbase-api-key>",
+                            "BROWSERBASE_PROJECT_ID": "<your-browserbase-project-id>",
+                            "GEMINI_API_KEY": "<your-gemini-api-key>"
+                        }
+                    }
+                }
+            },
+            "instructions": "Replace <your-browserbase-api-key> and <your-browserbase-project-id> with values from https://www.browserbase.com/. Replace <your-gemini-api-key> with a Google AI Studio API key from https://aistudio.google.com/apikey (used by the default Browserbase agent model). Provides remote browser automation through Browserbase-hosted sessions.",
+            "installUrl": "theia://install-mcp?id=io.github.browserbase/mcp-server-browserbase"
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "browserbase": {
+                        "command": "npx",
+                        "args": [
+                            "-y",
+                            "@browserbasehq/mcp-server-browserbase@latest"
+                        ],
+                        "env": {
+                            "BROWSERBASE_API_KEY": "<your-browserbase-api-key>",
+                            "BROWSERBASE_PROJECT_ID": "<your-browserbase-project-id>",
+                            "GEMINI_API_KEY": "<your-gemini-api-key>"
+                        }
+                    }
+                }
+            },
+            "instructions": "Replace <your-browserbase-api-key> and <your-browserbase-project-id> with values from https://www.browserbase.com/. Replace <your-gemini-api-key> with a Google AI Studio API key from https://aistudio.google.com/apikey (used by the default Browserbase agent model). Provides remote browser automation through Browserbase-hosted sessions.",
+            "installUrl": "theia-next://install-mcp?id=io.github.browserbase/mcp-server-browserbase"
+        }
+    ]
+}

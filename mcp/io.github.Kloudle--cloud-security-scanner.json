@@ -1,0 +1,32 @@
+{
+    "serverId": "io.github.Kloudle/cloud-security-scanner",
+    "date": "2026-06-01",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "kloudle-scanner": {
+                        "serverUrl": "https://mcp.kloudle.dev/mcp",
+                        "serverAuthToken": "<your-kloudle-api-key>"
+                    }
+                }
+            },
+            "instructions": "Replace <your-kloudle-api-key> with a Kloudle API key from https://kloudle.com/. The token is sent as 'Authorization: Bearer <token>'. Provides cloud security scanning and posture management tooling.",
+            "installUrl": "theia://install-mcp?id=io.github.Kloudle/cloud-security-scanner"
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "kloudle-scanner": {
+                        "serverUrl": "https://mcp.kloudle.dev/mcp",
+                        "serverAuthToken": "<your-kloudle-api-key>"
+                    }
+                }
+            },
+            "instructions": "Replace <your-kloudle-api-key> with a Kloudle API key from https://kloudle.com/. The token is sent as 'Authorization: Bearer <token>'. Provides cloud security scanning and posture management tooling.",
+            "installUrl": "theia-next://install-mcp?id=io.github.Kloudle/cloud-security-scanner"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "serverId": "io.certifier/mcp",
+    "date": "2026-06-01",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "certifier": {
+                        "serverUrl": "https://api.certifier.io/v1/mcp",
+                        "serverAuthToken": "<your-certifier-api-key>"
+                    }
+                }
+            },
+            "instructions": "Replace <your-certifier-api-key> with a Certifier API key from https://certifier.io/. The token is sent as 'Authorization: Bearer <token>'. Provides certificate creation, recipient management, and credential issuance tooling.",
+            "installUrl": "theia://install-mcp?id=io.certifier/mcp"
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "certifier": {
+                        "serverUrl": "https://api.certifier.io/v1/mcp",
+                        "serverAuthToken": "<your-certifier-api-key>"
+                    }
+                }
+            },
+            "instructions": "Replace <your-certifier-api-key> with a Certifier API key from https://certifier.io/. The token is sent as 'Authorization: Bearer <token>'. Provides certificate creation, recipient management, and credential issuance tooling.",
+            "installUrl": "theia-next://install-mcp?id=io.certifier/mcp"
+        }
+    ]
+}

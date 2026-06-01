@@ -1,0 +1,44 @@
+{
+    "serverId": "io.github.tavily-ai/tavily-mcp",
+    "date": "2026-06-01",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "tavily": {
+                        "command": "npx",
+                        "args": [
+                            "-y",
+                            "tavily-mcp@latest"
+                        ],
+                        "env": {
+                            "TAVILY_API_KEY": "<your-tavily-api-key>"
+                        }
+                    }
+                }
+            },
+            "instructions": "Replace <your-tavily-api-key> with a Tavily API key from https://app.tavily.com/. Provides real-time web search and extraction tools optimized for LLMs.",
+            "installUrl": "theia://install-mcp?id=io.github.tavily-ai/tavily-mcp"
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "tavily": {
+                        "command": "npx",
+                        "args": [
+                            "-y",
+                            "tavily-mcp@latest"
+                        ],
+                        "env": {
+                            "TAVILY_API_KEY": "<your-tavily-api-key>"
+                        }
+                    }
+                }
+            },
+            "instructions": "Replace <your-tavily-api-key> with a Tavily API key from https://app.tavily.com/. Provides real-time web search and extraction tools optimized for LLMs.",
+            "installUrl": "theia-next://install-mcp?id=io.github.tavily-ai/tavily-mcp"
+        }
+    ]
+}

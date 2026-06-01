@@ -1,0 +1,30 @@
+{
+    "serverId": "io.github.storybookjs/addon-mcp",
+    "date": "2026-06-01",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "storybook": {
+                        "serverUrl": "http://localhost:6006/mcp"
+                    }
+                }
+            },
+            "instructions": "Add the @storybook/addon-mcp addon to your project's Storybook configuration (see https://storybook.js.org/docs/ai/mcp/overview) and run Storybook (default port 6006). The addon exposes an MCP endpoint at /mcp on the Storybook dev server. If your Storybook runs on a different port, update serverUrl accordingly.",
+            "installUrl": "theia://install-mcp?id=io.github.storybookjs/addon-mcp"
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "storybook": {
+                        "serverUrl": "http://localhost:6006/mcp"
+                    }
+                }
+            },
+            "instructions": "Add the @storybook/addon-mcp addon to your project's Storybook configuration (see https://storybook.js.org/docs/ai/mcp/overview) and run Storybook (default port 6006). The addon exposes an MCP endpoint at /mcp on the Storybook dev server. If your Storybook runs on a different port, update serverUrl accordingly.",
+            "installUrl": "theia-next://install-mcp?id=io.github.storybookjs/addon-mcp"
+        }
+    ]
+}

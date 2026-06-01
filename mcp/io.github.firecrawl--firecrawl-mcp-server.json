@@ -1,0 +1,44 @@
+{
+    "serverId": "io.github.firecrawl/firecrawl-mcp-server",
+    "date": "2026-06-01",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "firecrawl": {
+                        "command": "npx",
+                        "args": [
+                            "-y",
+                            "firecrawl-mcp@latest"
+                        ],
+                        "env": {
+                            "FIRECRAWL_API_KEY": "<your-firecrawl-api-key>"
+                        }
+                    }
+                }
+            },
+            "instructions": "Replace <your-firecrawl-api-key> with an API key from https://www.firecrawl.dev/. Provides web scraping, crawling, and structured data extraction tools.",
+            "installUrl": "theia://install-mcp?id=io.github.firecrawl/firecrawl-mcp-server"
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "firecrawl": {
+                        "command": "npx",
+                        "args": [
+                            "-y",
+                            "firecrawl-mcp@latest"
+                        ],
+                        "env": {
+                            "FIRECRAWL_API_KEY": "<your-firecrawl-api-key>"
+                        }
+                    }
+                }
+            },
+            "instructions": "Replace <your-firecrawl-api-key> with an API key from https://www.firecrawl.dev/. Provides web scraping, crawling, and structured data extraction tools.",
+            "installUrl": "theia-next://install-mcp?id=io.github.firecrawl/firecrawl-mcp-server"
+        }
+    ]
+}

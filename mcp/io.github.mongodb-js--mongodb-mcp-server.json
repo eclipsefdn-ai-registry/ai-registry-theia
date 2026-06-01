@@ -1,0 +1,42 @@
+{
+    "serverId": "io.github.mongodb-js/mongodb-mcp-server",
+    "date": "2026-06-01",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "mongodb": {
+                        "command": "npx",
+                        "args": [
+                            "-y",
+                            "mongodb-mcp-server@latest",
+                            "--connectionString",
+                            "<your-mongodb-connection-string>"
+                        ]
+                    }
+                }
+            },
+            "instructions": "Replace <your-mongodb-connection-string> with a MongoDB connection URI (e.g., mongodb+srv://user:pass@cluster.mongodb.net/). Provides MongoDB query, aggregation, and admin tools. Use a read-only user for safer access.",
+            "installUrl": "theia://install-mcp?id=io.github.mongodb-js/mongodb-mcp-server"
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "mongodb": {
+                        "command": "npx",
+                        "args": [
+                            "-y",
+                            "mongodb-mcp-server@latest",
+                            "--connectionString",
+                            "<your-mongodb-connection-string>"
+                        ]
+                    }
+                }
+            },
+            "instructions": "Replace <your-mongodb-connection-string> with a MongoDB connection URI (e.g., mongodb+srv://user:pass@cluster.mongodb.net/). Provides MongoDB query, aggregation, and admin tools. Use a read-only user for safer access.",
+            "installUrl": "theia-next://install-mcp?id=io.github.mongodb-js/mongodb-mcp-server"
+        }
+    ]
+}

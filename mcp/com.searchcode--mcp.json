@@ -1,0 +1,30 @@
+{
+    "serverId": "com.searchcode/mcp",
+    "date": "2026-06-01",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "searchcode": {
+                        "serverUrl": "https://api.searchcode.com/v1/mcp"
+                    }
+                }
+            },
+            "instructions": "Connects to the hosted searchcode MCP server for public source code search across many open source repositories. No authentication is required.",
+            "installUrl": "theia://install-mcp?id=com.searchcode/mcp"
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "searchcode": {
+                        "serverUrl": "https://api.searchcode.com/v1/mcp"
+                    }
+                }
+            },
+            "instructions": "Connects to the hosted searchcode MCP server for public source code search across many open source repositories. No authentication is required.",
+            "installUrl": "theia-next://install-mcp?id=com.searchcode/mcp"
+        }
+    ]
+}

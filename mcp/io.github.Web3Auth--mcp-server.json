@@ -1,0 +1,30 @@
+{
+    "serverId": "io.github.Web3Auth/mcp-server",
+    "date": "2026-06-01",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "web3auth": {
+                        "serverUrl": "https://mcp.web3auth.io"
+                    }
+                }
+            },
+            "instructions": "Connects to the hosted Web3Auth MCP server at https://mcp.web3auth.io. If authentication is required for your account, add \"serverAuthToken\": \"<your-web3auth-token>\" to the server config.",
+            "installUrl": "theia://install-mcp?id=io.github.Web3Auth/mcp-server"
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "web3auth": {
+                        "serverUrl": "https://mcp.web3auth.io"
+                    }
+                }
+            },
+            "instructions": "Connects to the hosted Web3Auth MCP server at https://mcp.web3auth.io. If authentication is required for your account, add \"serverAuthToken\": \"<your-web3auth-token>\" to the server config.",
+            "installUrl": "theia-next://install-mcp?id=io.github.Web3Auth/mcp-server"
+        }
+    ]
+}
