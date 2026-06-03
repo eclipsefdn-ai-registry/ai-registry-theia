@@ -1,6 +1,6 @@
 # AI Registry — Theia IDE
 
-Vendor repository for the [AI Registry](https://github.com/eclipsefdn-ai-registry/ai-registry-core), maintained by the [Theia IDE](https://theia-ide.org) project. Contains approvals for AI artifacts (currently MCP servers) endorsed by the Theia project.
+Vendor repository for the [AI Registry](https://github.com/eclipsefdn-ai-registry/ai-registry-core), maintained by the [Theia IDE](https://theia-ide.org) project. Contains approvals for AI artifacts (MCP servers and Agent Skills) approved by the Theia project.
 
 ## Documentation
 
