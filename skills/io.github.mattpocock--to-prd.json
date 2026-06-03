@@ -1,0 +1,18 @@
+{
+  "skillId": "io.github.mattpocock/to-prd",
+  "date": "2026-06-03",
+  "source": {
+    "url": "https://github.com/mattpocock/skills.git",
+    "path": "skills/engineering/to-prd"
+  },
+  "installConfigs": [
+    {
+      "tool": "theia-ide",
+      "installUrl": "theia://install-skill?id=io.github.mattpocock/to-prd"
+    },
+    {
+      "tool": "theia-ide-next",
+      "installUrl": "theia-next://install-skill?id=io.github.mattpocock/to-prd"
+    }
+  ]
+}

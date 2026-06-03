@@ -1,0 +1,18 @@
+{
+  "skillId": "io.github.f-labs-io/html-interactive-playground",
+  "date": "2026-06-03",
+  "source": {
+    "url": "https://github.com/f-labs-io/agent-html-skills.git",
+    "path": "plugins/html-skills/skills/html-interactive-playground"
+  },
+  "installConfigs": [
+    {
+      "tool": "theia-ide",
+      "installUrl": "theia://install-skill?id=io.github.f-labs-io/html-interactive-playground"
+    },
+    {
+      "tool": "theia-ide-next",
+      "installUrl": "theia-next://install-skill?id=io.github.f-labs-io/html-interactive-playground"
+    }
+  ]
+}
