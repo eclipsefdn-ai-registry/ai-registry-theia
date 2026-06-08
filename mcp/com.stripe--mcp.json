@@ -1,0 +1,32 @@
+{
+    "serverId": "com.stripe/mcp",
+    "date": "2026-06-08",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "stripe": {
+                        "serverUrl": "https://mcp.stripe.com",
+                        "serverAuthToken": "<stripe-api-key>"
+                    }
+                }
+            },
+            "instructions": "Replace <stripe-api-key> with your Stripe API key (e.g., sk_live_... or a restricted key). You can find or create API keys at https://dashboard.stripe.com/apikeys. The key is sent as 'Authorization: Bearer <key>'.",
+            "installUrl": "theia://install-mcp?id=com.stripe%2Fmcp"
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "stripe": {
+                        "serverUrl": "https://mcp.stripe.com",
+                        "serverAuthToken": "<stripe-api-key>"
+                    }
+                }
+            },
+            "instructions": "Replace <stripe-api-key> with your Stripe API key (e.g., sk_live_... or a restricted key). You can find or create API keys at https://dashboard.stripe.com/apikeys. The key is sent as 'Authorization: Bearer <key>'.",
+            "installUrl": "theia-next://install-mcp?id=com.stripe%2Fmcp"
+        }
+    ]
+}
