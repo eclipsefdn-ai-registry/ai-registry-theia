@@ -21,7 +21,6 @@ jobs:
           repository: eclipsefdn-ai-registry/ai-registry-core
           ref: main
           path: core
-          token: ${{ secrets.CORE_REPO_READ_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v5
