@@ -1,0 +1,18 @@
+{
+    "skillId": "io.github.eclipsefdn-ai-registry/create-mcp-approval",
+    "date": "2026-06-09",
+    "source": {
+        "url": "https://github.com/eclipsefdn-ai-registry/ai-registry-core.git",
+        "path": "skills/create-mcp-approval"
+    },
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "installUrl": "theia://install-skill?id=io.github.eclipsefdn-ai-registry/create-mcp-approval"
+        },
+        {
+            "tool": "theia-ide-next",
+            "installUrl": "theia-next://install-skill?id=io.github.eclipsefdn-ai-registry/create-mcp-approval"
+        }
+    ]
+}
