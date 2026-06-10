@@ -1,0 +1,30 @@
+{
+    "serverId": "com.asana/mcp",
+    "date": "2026-06-10",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "asana": {
+                        "serverUrl": "https://mcp.asana.com/sse"
+                    }
+                }
+            },
+            "instructions": "Remote Asana MCP server. No API key is required: on first connection Theia opens a browser to authorize access to your Asana workspace via OAuth, then stores the resulting token automatically. Provides tools to manage Asana tasks, projects, and workspaces.",
+            "installUrl": "theia://install-mcp?id=com.asana%2Fmcp"
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "asana": {
+                        "serverUrl": "https://mcp.asana.com/sse"
+                    }
+                }
+            },
+            "instructions": "Remote Asana MCP server. No API key is required: on first connection Theia opens a browser to authorize access to your Asana workspace via OAuth, then stores the resulting token automatically. Provides tools to manage Asana tasks, projects, and workspaces.",
+            "installUrl": "theia-next://install-mcp?id=com.asana%2Fmcp"
+        }
+    ]
+}

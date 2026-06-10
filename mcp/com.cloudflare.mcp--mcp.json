@@ -1,0 +1,30 @@
+{
+    "serverId": "com.cloudflare.mcp/mcp",
+    "date": "2026-06-10",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "cloudflare-bindings": {
+                        "serverUrl": "https://bindings.mcp.cloudflare.com/sse"
+                    }
+                }
+            },
+            "instructions": "Remote Cloudflare MCP server for managing Workers bindings (KV, R2, D1, Durable Objects). No API key is required: on first connection Theia opens a browser to authorize access to your Cloudflare account via OAuth. Cloudflare also offers additional specialized remote servers (e.g. observability, builds, radar, browser) under *.mcp.cloudflare.com — change the serverUrl to use those instead.",
+            "installUrl": "theia://install-mcp?id=com.cloudflare.mcp%2Fmcp"
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "cloudflare-bindings": {
+                        "serverUrl": "https://bindings.mcp.cloudflare.com/sse"
+                    }
+                }
+            },
+            "instructions": "Remote Cloudflare MCP server for managing Workers bindings (KV, R2, D1, Durable Objects). No API key is required: on first connection Theia opens a browser to authorize access to your Cloudflare account via OAuth. Cloudflare also offers additional specialized remote servers (e.g. observability, builds, radar, browser) under *.mcp.cloudflare.com — change the serverUrl to use those instead.",
+            "installUrl": "theia-next://install-mcp?id=com.cloudflare.mcp%2Fmcp"
+        }
+    ]
+}

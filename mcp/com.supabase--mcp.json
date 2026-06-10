@@ -1,0 +1,30 @@
+{
+    "serverId": "com.supabase/mcp",
+    "date": "2026-06-10",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "supabase": {
+                        "serverUrl": "https://mcp.supabase.com/mcp"
+                    }
+                }
+            },
+            "instructions": "Remote Supabase MCP server. No API key is required: on first connection Theia opens a browser to authorize access to your Supabase account via OAuth, then stores the resulting token automatically. Provides tools to manage Supabase projects, run SQL, and inspect database schemas.",
+            "installUrl": "theia://install-mcp?id=com.supabase%2Fmcp"
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "supabase": {
+                        "serverUrl": "https://mcp.supabase.com/mcp"
+                    }
+                }
+            },
+            "instructions": "Remote Supabase MCP server. No API key is required: on first connection Theia opens a browser to authorize access to your Supabase account via OAuth, then stores the resulting token automatically. Provides tools to manage Supabase projects, run SQL, and inspect database schemas.",
+            "installUrl": "theia-next://install-mcp?id=com.supabase%2Fmcp"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "serverId": "com.atlassian/atlassian-mcp-server",
+    "date": "2026-06-10",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "atlassian": {
+                        "serverUrl": "https://mcp.atlassian.com/v1/sse"
+                    }
+                }
+            },
+            "instructions": "Remote Atlassian MCP server for Jira and Confluence Cloud. No API key is required: on first connection Theia opens a browser to authorize access to your Atlassian site via OAuth, then stores the resulting token automatically.",
+            "installUrl": "theia://install-mcp?id=com.atlassian%2Fatlassian-mcp-server"
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "atlassian": {
+                        "serverUrl": "https://mcp.atlassian.com/v1/sse"
+                    }
+                }
+            },
+            "instructions": "Remote Atlassian MCP server for Jira and Confluence Cloud. No API key is required: on first connection Theia opens a browser to authorize access to your Atlassian site via OAuth, then stores the resulting token automatically.",
+            "installUrl": "theia-next://install-mcp?id=com.atlassian%2Fatlassian-mcp-server"
+        }
+    ]
+}
