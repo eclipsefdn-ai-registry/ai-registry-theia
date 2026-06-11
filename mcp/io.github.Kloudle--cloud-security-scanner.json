@@ -12,8 +12,7 @@
                     }
                 }
             },
-            "instructions": "Replace <your-kloudle-api-key> with a Kloudle API key from https://kloudle.com/. The token is sent as 'Authorization: Bearer <token>'. Provides cloud security scanning and posture management tooling.",
-            "installUrl": "theia://install-mcp?id=io.github.Kloudle/cloud-security-scanner"
+            "instructions": "Replace <your-kloudle-api-key> with a Kloudle API key from https://kloudle.com/. The token is sent as 'Authorization: Bearer <token>'. Provides cloud security scanning and posture management tooling."
         },
         {
             "tool": "theia-ide-next",
@@ -25,8 +24,7 @@
                     }
                 }
             },
-            "instructions": "Replace <your-kloudle-api-key> with a Kloudle API key from https://kloudle.com/. The token is sent as 'Authorization: Bearer <token>'. Provides cloud security scanning and posture management tooling.",
-            "installUrl": "theia-next://install-mcp?id=io.github.Kloudle/cloud-security-scanner"
+            "instructions": "Replace <your-kloudle-api-key> with a Kloudle API key from https://kloudle.com/. The token is sent as 'Authorization: Bearer <token>'. Provides cloud security scanning and posture management tooling."
         }
     ]
 }

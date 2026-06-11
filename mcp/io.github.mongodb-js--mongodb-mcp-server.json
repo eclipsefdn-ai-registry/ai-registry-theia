@@ -17,8 +17,7 @@
                     }
                 }
             },
-            "instructions": "Replace <your-mongodb-connection-string> with a MongoDB connection URI (e.g., mongodb+srv://user:pass@cluster.mongodb.net/). Provides MongoDB query, aggregation, and admin tools. Use a read-only user for safer access.",
-            "installUrl": "theia://install-mcp?id=io.github.mongodb-js/mongodb-mcp-server"
+            "instructions": "Replace <your-mongodb-connection-string> with a MongoDB connection URI (e.g., mongodb+srv://user:pass@cluster.mongodb.net/). Provides MongoDB query, aggregation, and admin tools. Use a read-only user for safer access."
         },
         {
             "tool": "theia-ide-next",
@@ -35,8 +34,7 @@
                     }
                 }
             },
-            "instructions": "Replace <your-mongodb-connection-string> with a MongoDB connection URI (e.g., mongodb+srv://user:pass@cluster.mongodb.net/). Provides MongoDB query, aggregation, and admin tools. Use a read-only user for safer access.",
-            "installUrl": "theia-next://install-mcp?id=io.github.mongodb-js/mongodb-mcp-server"
+            "instructions": "Replace <your-mongodb-connection-string> with a MongoDB connection URI (e.g., mongodb+srv://user:pass@cluster.mongodb.net/). Provides MongoDB query, aggregation, and admin tools. Use a read-only user for safer access."
         }
     ]
 }

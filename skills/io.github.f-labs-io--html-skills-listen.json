@@ -1,18 +1,16 @@
 {
-  "skillId": "io.github.f-labs-io/html-skills-listen",
-  "date": "2026-06-03",
-  "source": {
-    "url": "https://github.com/f-labs-io/agent-html-skills.git",
-    "path": "plugins/html-skills/skills/html-skills-listen"
-  },
-  "installConfigs": [
-    {
-      "tool": "theia-ide",
-      "installUrl": "theia://install-skill?id=io.github.f-labs-io/html-skills-listen"
+    "skillId": "io.github.f-labs-io/html-skills-listen",
+    "date": "2026-06-03",
+    "source": {
+        "url": "https://github.com/f-labs-io/agent-html-skills.git",
+        "path": "plugins/html-skills/skills/html-skills-listen"
     },
-    {
-      "tool": "theia-ide-next",
-      "installUrl": "theia-next://install-skill?id=io.github.f-labs-io/html-skills-listen"
-    }
-  ]
+    "installConfigs": [
+        {
+            "tool": "theia-ide"
+        },
+        {
+            "tool": "theia-ide-next"
+        }
+    ]
 }

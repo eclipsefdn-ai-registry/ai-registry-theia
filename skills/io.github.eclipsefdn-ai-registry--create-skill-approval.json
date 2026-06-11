@@ -7,12 +7,10 @@
     },
     "installConfigs": [
         {
-            "tool": "theia-ide",
-            "installUrl": "theia://install-skill?id=io.github.eclipsefdn-ai-registry/create-skill-approval"
+            "tool": "theia-ide"
         },
         {
-            "tool": "theia-ide-next",
-            "installUrl": "theia-next://install-skill?id=io.github.eclipsefdn-ai-registry/create-skill-approval"
+            "tool": "theia-ide-next"
         }
     ]
 }

@@ -18,8 +18,7 @@
                     }
                 }
             },
-            "instructions": "Replace <your-brave-search-api-key> with a Brave Search API key from https://api.search.brave.com/. Provides web, news, image, video, and local search via the Brave Search API.",
-            "installUrl": "theia://install-mcp?id=io.github.brave/brave-search-mcp-server"
+            "instructions": "Replace <your-brave-search-api-key> with a Brave Search API key from https://api.search.brave.com/. Provides web, news, image, video, and local search via the Brave Search API."
         },
         {
             "tool": "theia-ide-next",
@@ -37,8 +36,7 @@
                     }
                 }
             },
-            "instructions": "Replace <your-brave-search-api-key> with a Brave Search API key from https://api.search.brave.com/. Provides web, news, image, video, and local search via the Brave Search API.",
-            "installUrl": "theia-next://install-mcp?id=io.github.brave/brave-search-mcp-server"
+            "instructions": "Replace <your-brave-search-api-key> with a Brave Search API key from https://api.search.brave.com/. Provides web, news, image, video, and local search via the Brave Search API."
         }
     ]
 }

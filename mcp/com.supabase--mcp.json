@@ -11,8 +11,7 @@
                     }
                 }
             },
-            "instructions": "Remote Supabase MCP server. No API key is required: on first connection Theia opens a browser to authorize access to your Supabase account via OAuth, then stores the resulting token automatically. Provides tools to manage Supabase projects, run SQL, and inspect database schemas.",
-            "installUrl": "theia://install-mcp?id=com.supabase%2Fmcp"
+            "instructions": "Remote Supabase MCP server. No API key is required: on first connection Theia opens a browser to authorize access to your Supabase account via OAuth, then stores the resulting token automatically. Provides tools to manage Supabase projects, run SQL, and inspect database schemas."
         },
         {
             "tool": "theia-ide-next",
@@ -23,8 +22,7 @@
                     }
                 }
             },
-            "instructions": "Remote Supabase MCP server. No API key is required: on first connection Theia opens a browser to authorize access to your Supabase account via OAuth, then stores the resulting token automatically. Provides tools to manage Supabase projects, run SQL, and inspect database schemas.",
-            "installUrl": "theia-next://install-mcp?id=com.supabase%2Fmcp"
+            "instructions": "Remote Supabase MCP server. No API key is required: on first connection Theia opens a browser to authorize access to your Supabase account via OAuth, then stores the resulting token automatically. Provides tools to manage Supabase projects, run SQL, and inspect database schemas."
         }
     ]
 }

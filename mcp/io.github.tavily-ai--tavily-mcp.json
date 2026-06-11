@@ -18,8 +18,7 @@
                     }
                 }
             },
-            "instructions": "Replace <your-tavily-api-key> with a Tavily API key from https://app.tavily.com/. Provides real-time web search and extraction tools optimized for LLMs.",
-            "installUrl": "theia://install-mcp?id=io.github.tavily-ai/tavily-mcp"
+            "instructions": "Replace <your-tavily-api-key> with a Tavily API key from https://app.tavily.com/. Provides real-time web search and extraction tools optimized for LLMs."
         },
         {
             "tool": "theia-ide-next",
@@ -37,8 +36,7 @@
                     }
                 }
             },
-            "instructions": "Replace <your-tavily-api-key> with a Tavily API key from https://app.tavily.com/. Provides real-time web search and extraction tools optimized for LLMs.",
-            "installUrl": "theia-next://install-mcp?id=io.github.tavily-ai/tavily-mcp"
+            "instructions": "Replace <your-tavily-api-key> with a Tavily API key from https://app.tavily.com/. Provides real-time web search and extraction tools optimized for LLMs."
         }
     ]
 }

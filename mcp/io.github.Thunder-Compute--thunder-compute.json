@@ -12,8 +12,7 @@
                     }
                 }
             },
-            "instructions": "Replace <your-thunder-compute-api-key> with a Thunder Compute API key from https://www.thundercompute.com/. The token is sent as 'Authorization: Bearer <token>'. Provides tooling for managing GPU instances and workloads on Thunder Compute.",
-            "installUrl": "theia://install-mcp?id=io.github.Thunder-Compute/thunder-compute"
+            "instructions": "Replace <your-thunder-compute-api-key> with a Thunder Compute API key from https://www.thundercompute.com/. The token is sent as 'Authorization: Bearer <token>'. Provides tooling for managing GPU instances and workloads on Thunder Compute."
         },
         {
             "tool": "theia-ide-next",
@@ -25,8 +24,7 @@
                     }
                 }
             },
-            "instructions": "Replace <your-thunder-compute-api-key> with a Thunder Compute API key from https://www.thundercompute.com/. The token is sent as 'Authorization: Bearer <token>'. Provides tooling for managing GPU instances and workloads on Thunder Compute.",
-            "installUrl": "theia-next://install-mcp?id=io.github.Thunder-Compute/thunder-compute"
+            "instructions": "Replace <your-thunder-compute-api-key> with a Thunder Compute API key from https://www.thundercompute.com/. The token is sent as 'Authorization: Bearer <token>'. Provides tooling for managing GPU instances and workloads on Thunder Compute."
         }
     ]
 }

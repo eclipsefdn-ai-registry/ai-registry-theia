@@ -5,7 +5,17 @@
   "website": "https://theia-ide.org",
   "color": "#1a1f71",
   "tools": [
-    { "id": "theia-ide", "name": "Theia IDE" },
-    { "id": "theia-ide-next", "name": "Theia IDE Next" }
+    {
+      "id": "theia-ide",
+      "name": "Theia IDE",
+      "skillInstallUrlPrefix": "theia://install-skill?id=",
+      "mcpInstallUrlPrefix": "theia://install-mcp?id="
+    },
+    {
+      "id": "theia-ide-next",
+      "name": "Theia IDE Next",
+      "skillInstallUrlPrefix": "theia-next://install-skill?id=",
+      "mcpInstallUrlPrefix": "theia-next://install-mcp?id="
+    }
   ]
 }
