@@ -7,11 +7,16 @@
             "config": {
                 "servers": {
                     "asana": {
-                        "serverUrl": "https://mcp.asana.com/sse"
+                        "serverUrl": "https://mcp.asana.com/v2/mcp",
+                        "oauth": {
+                            "clientId": "<clientId>",
+                            "clientSecret": "<clientSecret>",
+                            "resource": "https://mcp.asana.com/v2"
+                        }
                     }
                 }
             },
-            "instructions": "Remote Asana MCP server. No API key is required: on first connection Theia opens a browser to authorize access to your Asana workspace via OAuth, then stores the resulting token automatically. Provides tools to manage Asana tasks, projects, and workspaces.",
+            "instructions": "Remote Asana MCP server (OAuth, V2 server at https://mcp.asana.com/v2/mcp). Three config values must be supplied: clientId, clientSecret, and resource. To obtain them: 1) Open the Asana developer console at https://app.asana.com/0/my-apps and sign in. 2) Click 'Create new app', enter a name, select 'MCP app' as the app type, and click 'Create app' — the Client ID and Client secret are then displayed; copy them into <clientId> and <clientSecret> (dynamic client registration is not supported, so these are required). 3) In the left sidebar open the 'OAuth' tab and add a Redirect URL (the callback URL your client uses). 4) Open 'Manage distribution' and allow the workspace(s) that may use the app, or choose 'Any workspace'. 5) 'resource' is the V2 MCP server URL and is already set to https://mcp.asana.com/v2 — leave it unchanged. MCP apps require no specific scopes, so 'scopes' is omitted. On first connection Theia opens a browser to authorize access and stores the resulting token automatically.",
             "installUrl": "theia://install-mcp?id=com.asana%2Fmcp"
         },
         {
@@ -19,11 +24,16 @@
             "config": {
                 "servers": {
                     "asana": {
-                        "serverUrl": "https://mcp.asana.com/sse"
+                        "serverUrl": "https://mcp.asana.com/v2/mcp",
+                        "oauth": {
+                            "clientId": "<clientId>",
+                            "clientSecret": "<clientSecret>",
+                            "resource": "https://mcp.asana.com/v2"
+                        }
                     }
                 }
             },
-            "instructions": "Remote Asana MCP server. No API key is required: on first connection Theia opens a browser to authorize access to your Asana workspace via OAuth, then stores the resulting token automatically. Provides tools to manage Asana tasks, projects, and workspaces.",
+            "instructions": "Remote Asana MCP server (OAuth, V2 server at https://mcp.asana.com/v2/mcp). Three config values must be supplied: clientId, clientSecret, and resource. To obtain them: 1) Open the Asana developer console at https://app.asana.com/0/my-apps and sign in. 2) Click 'Create new app', enter a name, select 'MCP app' as the app type, and click 'Create app' — the Client ID and Client secret are then displayed; copy them into <clientId> and <clientSecret> (dynamic client registration is not supported, so these are required). 3) In the left sidebar open the 'OAuth' tab and add a Redirect URL (the callback URL your client uses). 4) Open 'Manage distribution' and allow the workspace(s) that may use the app, or choose 'Any workspace'. 5) 'resource' is the V2 MCP server URL and is already set to https://mcp.asana.com/v2 — leave it unchanged. MCP apps require no specific scopes, so 'scopes' is omitted. On first connection Theia opens a browser to authorize access and stores the resulting token automatically.",
             "installUrl": "theia-next://install-mcp?id=com.asana%2Fmcp"
         }
     ]
