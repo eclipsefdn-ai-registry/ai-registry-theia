@@ -1,0 +1,27 @@
+{
+    "skillId": "io.github.f-labs-io",
+    "date": "2026-06-03",
+    "source": {
+        "url": "https://github.com/f-labs-io/agent-html-skills.git",
+        "path": [
+            "plugins/html-skills/skills/html-architecture-diagrams",
+            "plugins/html-skills/skills/html-brainstorm-grid",
+            "plugins/html-skills/skills/html-code-review",
+            "plugins/html-skills/skills/html-comparison-matrix",
+            "plugins/html-skills/skills/html-data-explorer",
+            "plugins/html-skills/skills/html-design-prototypes",
+            "plugins/html-skills/skills/html-design-tokens",
+            "plugins/html-skills/skills/html-erd-explorer",
+            "plugins/html-skills/skills/html-interactive-playground",
+            "plugins/html-skills/skills/html-mind-map",
+            "plugins/html-skills/skills/html-research-reports",
+            "plugins/html-skills/skills/html-skills-listen",
+            "plugins/html-skills/skills/html-skills-stop",
+            "plugins/html-skills/skills/html-slideshow-deck",
+            "plugins/html-skills/skills/html-spec-planning",
+            "plugins/html-skills/skills/html-svg-diagrams",
+            "plugins/html-skills/skills/html-throwaway-editor",
+            "plugins/html-skills/skills/html-timeline-roadmap"
+        ]
+    }
+}

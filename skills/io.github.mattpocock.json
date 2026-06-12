@@ -1,0 +1,12 @@
+{
+    "skillId": "io.github.mattpocock",
+    "date": "2026-06-03",
+    "source": {
+        "url": "https://github.com/mattpocock/skills.git",
+        "path": [
+            "skills/engineering/*",
+            "skills/productivity/grill-me",
+            "skills/productivity/handoff"
+        ]
+    }
+}

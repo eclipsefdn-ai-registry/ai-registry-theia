@@ -1,0 +1,10 @@
+{
+    "skillId": "io.github.eclipsefdn-ai-registry",
+    "date": "2026-06-09",
+    "source": {
+        "url": "https://github.com/eclipsefdn-ai-registry/ai-registry-core.git",
+        "path": [
+            "skills/*"
+        ]
+    }
+}
