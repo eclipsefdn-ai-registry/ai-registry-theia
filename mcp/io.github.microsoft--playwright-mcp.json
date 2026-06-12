@@ -15,8 +15,7 @@
                     }
                 }
             },
-            "instructions": "Provides browser automation tools using Playwright. Requires Node.js. On first run, Playwright may download browser binaries; run 'npx playwright install' beforehand to pre-fetch them.",
-            "installUrl": "theia://install-mcp?id=io.github.microsoft/playwright-mcp"
+            "instructions": "Provides browser automation tools using Playwright. Requires Node.js. On first run, Playwright may download browser binaries; run 'npx playwright install' beforehand to pre-fetch them."
         },
         {
             "tool": "theia-ide-next",
@@ -31,8 +30,7 @@
                     }
                 }
             },
-            "instructions": "Provides browser automation tools using Playwright. Requires Node.js. On first run, Playwright may download browser binaries; run 'npx playwright install' beforehand to pre-fetch them.",
-            "installUrl": "theia-next://install-mcp?id=io.github.microsoft/playwright-mcp"
+            "instructions": "Provides browser automation tools using Playwright. Requires Node.js. On first run, Playwright may download browser binaries; run 'npx playwright install' beforehand to pre-fetch them."
         }
     ]
 }

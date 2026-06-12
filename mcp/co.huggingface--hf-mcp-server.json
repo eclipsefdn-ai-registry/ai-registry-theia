@@ -12,8 +12,7 @@
                     }
                 }
             },
-            "instructions": "Replace <huggingface-access-token> with a Hugging Face access token (https://huggingface.co/settings/tokens). The token is sent as 'Authorization: Bearer <token>' and is used to access gated models, your spaces, and personal collections. To use OAuth login instead, change serverUrl to https://huggingface.co/mcp?login and remove the serverAuthToken.",
-            "installUrl": "theia://install-mcp?id=co.huggingface/hf-mcp-server"
+            "instructions": "Replace <huggingface-access-token> with a Hugging Face access token (https://huggingface.co/settings/tokens). The token is sent as 'Authorization: Bearer <token>' and is used to access gated models, your spaces, and personal collections. To use OAuth login instead, change serverUrl to https://huggingface.co/mcp?login and remove the serverAuthToken."
         },
         {
             "tool": "theia-ide-next",
@@ -25,8 +24,7 @@
                     }
                 }
             },
-            "instructions": "Replace <huggingface-access-token> with a Hugging Face access token (https://huggingface.co/settings/tokens). The token is sent as 'Authorization: Bearer <token>' and is used to access gated models, your spaces, and personal collections. To use OAuth login instead, change serverUrl to https://huggingface.co/mcp?login and remove the serverAuthToken.",
-            "installUrl": "theia-next://install-mcp?id=co.huggingface/hf-mcp-server"
+            "instructions": "Replace <huggingface-access-token> with a Hugging Face access token (https://huggingface.co/settings/tokens). The token is sent as 'Authorization: Bearer <token>' and is used to access gated models, your spaces, and personal collections. To use OAuth login instead, change serverUrl to https://huggingface.co/mcp?login and remove the serverAuthToken."
         }
     ]
 }

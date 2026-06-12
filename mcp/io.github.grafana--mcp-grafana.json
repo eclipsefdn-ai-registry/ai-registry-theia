@@ -15,8 +15,7 @@
                     }
                 }
             },
-            "instructions": "Connects to Grafana Cloud's hosted MCP server. Replace <your-grafana-service-account-token> with a Grafana service account token (sent as 'Authorization: Bearer <token>') and <https://your-instance.grafana.net> with your Grafana Cloud instance URL (sent in the X-Grafana-URL header). For self-managed Grafana, switch to the Docker-based local server: command 'docker', args ['run','-i','--rm','-e','GRAFANA_URL','-e','GRAFANA_SERVICE_ACCOUNT_TOKEN','docker.io/grafana/mcp-grafana:latest'], env with GRAFANA_URL and GRAFANA_SERVICE_ACCOUNT_TOKEN.",
-            "installUrl": "theia://install-mcp?id=io.github.grafana/mcp-grafana"
+            "instructions": "Connects to Grafana Cloud's hosted MCP server. Replace <your-grafana-service-account-token> with a Grafana service account token (sent as 'Authorization: Bearer <token>') and <https://your-instance.grafana.net> with your Grafana Cloud instance URL (sent in the X-Grafana-URL header). For self-managed Grafana, switch to the Docker-based local server: command 'docker', args ['run','-i','--rm','-e','GRAFANA_URL','-e','GRAFANA_SERVICE_ACCOUNT_TOKEN','docker.io/grafana/mcp-grafana:latest'], env with GRAFANA_URL and GRAFANA_SERVICE_ACCOUNT_TOKEN."
         },
         {
             "tool": "theia-ide-next",
@@ -31,8 +30,7 @@
                     }
                 }
             },
-            "instructions": "Connects to Grafana Cloud's hosted MCP server. Replace <your-grafana-service-account-token> with a Grafana service account token (sent as 'Authorization: Bearer <token>') and <https://your-instance.grafana.net> with your Grafana Cloud instance URL (sent in the X-Grafana-URL header). For self-managed Grafana, switch to the Docker-based local server: command 'docker', args ['run','-i','--rm','-e','GRAFANA_URL','-e','GRAFANA_SERVICE_ACCOUNT_TOKEN','docker.io/grafana/mcp-grafana:latest'], env with GRAFANA_URL and GRAFANA_SERVICE_ACCOUNT_TOKEN.",
-            "installUrl": "theia-next://install-mcp?id=io.github.grafana/mcp-grafana"
+            "instructions": "Connects to Grafana Cloud's hosted MCP server. Replace <your-grafana-service-account-token> with a Grafana service account token (sent as 'Authorization: Bearer <token>') and <https://your-instance.grafana.net> with your Grafana Cloud instance URL (sent in the X-Grafana-URL header). For self-managed Grafana, switch to the Docker-based local server: command 'docker', args ['run','-i','--rm','-e','GRAFANA_URL','-e','GRAFANA_SERVICE_ACCOUNT_TOKEN','docker.io/grafana/mcp-grafana:latest'], env with GRAFANA_URL and GRAFANA_SERVICE_ACCOUNT_TOKEN."
         }
     ]
 }

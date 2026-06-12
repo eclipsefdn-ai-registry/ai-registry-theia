@@ -11,8 +11,7 @@
                     }
                 }
             },
-            "instructions": "Replace <your-searchapi-mcp-token> with an MCP token from https://www.searchapi.io/mcp_integrations. The token is passed as a query parameter on the server URL. Provides real-time web, news, image and other search engine results.",
-            "installUrl": "theia://install-mcp?id=io.searchapi/mcp"
+            "instructions": "Replace <your-searchapi-mcp-token> with an MCP token from https://www.searchapi.io/mcp_integrations. The token is passed as a query parameter on the server URL. Provides real-time web, news, image and other search engine results."
         },
         {
             "tool": "theia-ide-next",
@@ -23,8 +22,7 @@
                     }
                 }
             },
-            "instructions": "Replace <your-searchapi-mcp-token> with an MCP token from https://www.searchapi.io/mcp_integrations. The token is passed as a query parameter on the server URL. Provides real-time web, news, image and other search engine results.",
-            "installUrl": "theia-next://install-mcp?id=io.searchapi/mcp"
+            "instructions": "Replace <your-searchapi-mcp-token> with an MCP token from https://www.searchapi.io/mcp_integrations. The token is passed as a query parameter on the server URL. Provides real-time web, news, image and other search engine results."
         }
     ]
 }

@@ -12,8 +12,7 @@
                     }
                 }
             },
-            "instructions": "Replace <your-certifier-api-key> with a Certifier API key from https://certifier.io/. The token is sent as 'Authorization: Bearer <token>'. Provides certificate creation, recipient management, and credential issuance tooling.",
-            "installUrl": "theia://install-mcp?id=io.certifier/mcp"
+            "instructions": "Replace <your-certifier-api-key> with a Certifier API key from https://certifier.io/. The token is sent as 'Authorization: Bearer <token>'. Provides certificate creation, recipient management, and credential issuance tooling."
         },
         {
             "tool": "theia-ide-next",
@@ -25,8 +24,7 @@
                     }
                 }
             },
-            "instructions": "Replace <your-certifier-api-key> with a Certifier API key from https://certifier.io/. The token is sent as 'Authorization: Bearer <token>'. Provides certificate creation, recipient management, and credential issuance tooling.",
-            "installUrl": "theia-next://install-mcp?id=io.certifier/mcp"
+            "instructions": "Replace <your-certifier-api-key> with a Certifier API key from https://certifier.io/. The token is sent as 'Authorization: Bearer <token>'. Provides certificate creation, recipient management, and credential issuance tooling."
         }
     ]
 }

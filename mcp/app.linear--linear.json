@@ -11,8 +11,7 @@
                     }
                 }
             },
-            "instructions": "Remote Linear MCP server. No API key is required: on first connection Theia opens a browser to authorize access to your Linear workspace via OAuth, then stores the resulting token automatically. Provides tools to manage Linear issues, projects, and teams.",
-            "installUrl": "theia://install-mcp?id=app.linear%2Flinear"
+            "instructions": "Remote Linear MCP server. No API key is required: on first connection Theia opens a browser to authorize access to your Linear workspace via OAuth, then stores the resulting token automatically. Provides tools to manage Linear issues, projects, and teams."
         },
         {
             "tool": "theia-ide-next",
@@ -23,8 +22,7 @@
                     }
                 }
             },
-            "instructions": "Remote Linear MCP server. No API key is required: on first connection Theia opens a browser to authorize access to your Linear workspace via OAuth, then stores the resulting token automatically. Provides tools to manage Linear issues, projects, and teams.",
-            "installUrl": "theia-next://install-mcp?id=app.linear%2Flinear"
+            "instructions": "Remote Linear MCP server. No API key is required: on first connection Theia opens a browser to authorize access to your Linear workspace via OAuth, then stores the resulting token automatically. Provides tools to manage Linear issues, projects, and teams."
         }
     ]
 }

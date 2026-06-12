@@ -12,8 +12,7 @@
                     }
                 }
             },
-            "instructions": "Replace <gitlab-personal-access-token> with a GitLab personal access token that has the 'api' scope (or 'read_api' for read-only). The token is sent as 'Authorization: Bearer <token>'. For self-managed GitLab, change the serverUrl to https://<your-gitlab-host>/api/v4/mcp.",
-            "installUrl": "theia://install-mcp?id=com.gitlab/mcp"
+            "instructions": "Replace <gitlab-personal-access-token> with a GitLab personal access token that has the 'api' scope (or 'read_api' for read-only). The token is sent as 'Authorization: Bearer <token>'. For self-managed GitLab, change the serverUrl to https://<your-gitlab-host>/api/v4/mcp."
         },
         {
             "tool": "theia-ide-next",
@@ -25,8 +24,7 @@
                     }
                 }
             },
-            "instructions": "Replace <gitlab-personal-access-token> with a GitLab personal access token that has the 'api' scope (or 'read_api' for read-only). The token is sent as 'Authorization: Bearer <token>'. For self-managed GitLab, change the serverUrl to https://<your-gitlab-host>/api/v4/mcp.",
-            "installUrl": "theia-next://install-mcp?id=com.gitlab/mcp"
+            "instructions": "Replace <gitlab-personal-access-token> with a GitLab personal access token that has the 'api' scope (or 'read_api' for read-only). The token is sent as 'Authorization: Bearer <token>'. For self-managed GitLab, change the serverUrl to https://<your-gitlab-host>/api/v4/mcp."
         }
     ]
 }

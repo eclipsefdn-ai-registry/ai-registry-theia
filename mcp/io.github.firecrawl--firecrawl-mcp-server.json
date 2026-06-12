@@ -18,8 +18,7 @@
                     }
                 }
             },
-            "instructions": "Replace <your-firecrawl-api-key> with an API key from https://www.firecrawl.dev/. Provides web scraping, crawling, and structured data extraction tools.",
-            "installUrl": "theia://install-mcp?id=io.github.firecrawl/firecrawl-mcp-server"
+            "instructions": "Replace <your-firecrawl-api-key> with an API key from https://www.firecrawl.dev/. Provides web scraping, crawling, and structured data extraction tools."
         },
         {
             "tool": "theia-ide-next",
@@ -37,8 +36,7 @@
                     }
                 }
             },
-            "instructions": "Replace <your-firecrawl-api-key> with an API key from https://www.firecrawl.dev/. Provides web scraping, crawling, and structured data extraction tools.",
-            "installUrl": "theia-next://install-mcp?id=io.github.firecrawl/firecrawl-mcp-server"
+            "instructions": "Replace <your-firecrawl-api-key> with an API key from https://www.firecrawl.dev/. Provides web scraping, crawling, and structured data extraction tools."
         }
     ]
 }

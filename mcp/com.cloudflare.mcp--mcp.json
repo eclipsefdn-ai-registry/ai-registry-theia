@@ -11,8 +11,7 @@
                     }
                 }
             },
-            "instructions": "Remote Cloudflare MCP server for managing Workers bindings (KV, R2, D1, Durable Objects). No API key is required: on first connection Theia opens a browser to authorize access to your Cloudflare account via OAuth. Cloudflare also offers additional specialized remote servers (e.g. observability, builds, radar, browser) under *.mcp.cloudflare.com — change the serverUrl to use those instead.",
-            "installUrl": "theia://install-mcp?id=com.cloudflare.mcp%2Fmcp"
+            "instructions": "Remote Cloudflare MCP server for managing Workers bindings (KV, R2, D1, Durable Objects). No API key is required: on first connection Theia opens a browser to authorize access to your Cloudflare account via OAuth. Cloudflare also offers additional specialized remote servers (e.g. observability, builds, radar, browser) under *.mcp.cloudflare.com \u2014 change the serverUrl to use those instead."
         },
         {
             "tool": "theia-ide-next",
@@ -23,8 +22,7 @@
                     }
                 }
             },
-            "instructions": "Remote Cloudflare MCP server for managing Workers bindings (KV, R2, D1, Durable Objects). No API key is required: on first connection Theia opens a browser to authorize access to your Cloudflare account via OAuth. Cloudflare also offers additional specialized remote servers (e.g. observability, builds, radar, browser) under *.mcp.cloudflare.com — change the serverUrl to use those instead.",
-            "installUrl": "theia-next://install-mcp?id=com.cloudflare.mcp%2Fmcp"
+            "instructions": "Remote Cloudflare MCP server for managing Workers bindings (KV, R2, D1, Durable Objects). No API key is required: on first connection Theia opens a browser to authorize access to your Cloudflare account via OAuth. Cloudflare also offers additional specialized remote servers (e.g. observability, builds, radar, browser) under *.mcp.cloudflare.com \u2014 change the serverUrl to use those instead."
         }
     ]
 }
