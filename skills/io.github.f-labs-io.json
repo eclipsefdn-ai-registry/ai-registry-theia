@@ -23,5 +23,13 @@
             "plugins/html-skills/skills/html-throwaway-editor",
             "plugins/html-skills/skills/html-timeline-roadmap"
         ]
-    }
+    },
+    "installConfigs": [
+        {
+            "tool": "theia-ide"
+        },
+        {
+            "tool": "theia-ide-next"
+        }
+    ]
 }

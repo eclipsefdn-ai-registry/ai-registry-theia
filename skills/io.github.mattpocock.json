@@ -8,5 +8,13 @@
             "skills/productivity/grill-me",
             "skills/productivity/handoff"
         ]
-    }
+    },
+    "installConfigs": [
+        {
+            "tool": "theia-ide"
+        },
+        {
+            "tool": "theia-ide-next"
+        }
+    ]
 }
