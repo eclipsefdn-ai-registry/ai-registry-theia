@@ -5,8 +5,9 @@
         "url": "https://github.com/mattpocock/skills.git",
         "path": [
             "skills/engineering/*",
-            "skills/productivity/grill-me",
-            "skills/productivity/handoff"
+            "skills/misc/*",
+            "skills/personal/*",
+            "skills/productivity/*"
         ]
     },
     "installConfigs": [
