@@ -1,0 +1,42 @@
+{
+    "serverId": "io.github.getsentry/sentry-mcp",
+    "date": "2026-07-01",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "sentry": {
+                        "command": "npx",
+                        "args": [
+                            "-y",
+                            "@sentry/mcp-server@latest"
+                        ],
+                        "env": {
+                            "SENTRY_ACCESS_TOKEN": "<your-sentry-access-token>"
+                        }
+                    }
+                }
+            },
+            "instructions": "Replace <your-sentry-access-token> with a Sentry User Auth Token. Create one at https://sentry.io/settings/account/api/auth-tokens/ with scopes: org:read, project:read, project:write, team:read, event:read, event:write. Provides error monitoring, issue tracking, and AI-powered debugging."
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "sentry": {
+                        "command": "npx",
+                        "args": [
+                            "-y",
+                            "@sentry/mcp-server@latest"
+                        ],
+                        "env": {
+                            "SENTRY_ACCESS_TOKEN": "<your-sentry-access-token>"
+                        }
+                    }
+                }
+            },
+            "instructions": "Replace <your-sentry-access-token> with a Sentry User Auth Token. Create one at https://sentry.io/settings/account/api/auth-tokens/ with scopes: org:read, project:read, project:write, team:read, event:read, event:write. Provides error monitoring, issue tracking, and AI-powered debugging."
+        }
+    ]
+}

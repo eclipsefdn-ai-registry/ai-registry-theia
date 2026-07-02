@@ -1,0 +1,56 @@
+{
+    "serverId": "io.github.hashicorp/terraform-mcp-server",
+    "date": "2026-07-01",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "terraform": {
+                        "command": "docker",
+                        "args": [
+                            "run",
+                            "--rm",
+                            "-i",
+                            "-e",
+                            "TFE_ADDRESS",
+                            "-e",
+                            "TFE_TOKEN",
+                            "hashicorp/terraform-mcp-server:latest"
+                        ],
+                        "env": {
+                            "TFE_ADDRESS": "https://app.terraform.io",
+                            "TFE_TOKEN": "<your-terraform-api-token>"
+                        }
+                    }
+                }
+            },
+            "instructions": "Replace <your-terraform-api-token> with an HCP Terraform or Terraform Enterprise API token. Create one at https://app.terraform.io/app/settings/tokens. Change TFE_ADDRESS if using a self-hosted Terraform Enterprise instance. Requires Docker. Provides Terraform code generation, workspace management, and IaC automation."
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "terraform": {
+                        "command": "docker",
+                        "args": [
+                            "run",
+                            "--rm",
+                            "-i",
+                            "-e",
+                            "TFE_ADDRESS",
+                            "-e",
+                            "TFE_TOKEN",
+                            "hashicorp/terraform-mcp-server:latest"
+                        ],
+                        "env": {
+                            "TFE_ADDRESS": "https://app.terraform.io",
+                            "TFE_TOKEN": "<your-terraform-api-token>"
+                        }
+                    }
+                }
+            },
+            "instructions": "Replace <your-terraform-api-token> with an HCP Terraform or Terraform Enterprise API token. Create one at https://app.terraform.io/app/settings/tokens. Change TFE_ADDRESS if using a self-hosted Terraform Enterprise instance. Requires Docker. Provides Terraform code generation, workspace management, and IaC automation."
+        }
+    ]
+}
