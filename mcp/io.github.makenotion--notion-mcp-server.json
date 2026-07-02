@@ -1,0 +1,42 @@
+{
+    "serverId": "io.github.makenotion/notion-mcp-server",
+    "date": "2026-07-01",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "notion": {
+                        "command": "npx",
+                        "args": [
+                            "-y",
+                            "@notionhq/notion-mcp-server@latest"
+                        ],
+                        "env": {
+                            "NOTION_TOKEN": "<your-notion-integration-token>"
+                        }
+                    }
+                }
+            },
+            "instructions": "Replace <your-notion-integration-token> with a Notion internal integration token. Create one at https://www.notion.so/profile/integrations — click 'New integration', name it, select the workspace, and copy the token (starts with 'ntn_'). Then share the pages or databases you want to access with the integration. Provides 22 tools for managing Notion pages, databases, comments, and search."
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "notion": {
+                        "command": "npx",
+                        "args": [
+                            "-y",
+                            "@notionhq/notion-mcp-server@latest"
+                        ],
+                        "env": {
+                            "NOTION_TOKEN": "<your-notion-integration-token>"
+                        }
+                    }
+                }
+            },
+            "instructions": "Replace <your-notion-integration-token> with a Notion internal integration token. Create one at https://www.notion.so/profile/integrations — click 'New integration', name it, select the workspace, and copy the token (starts with 'ntn_'). Then share the pages or databases you want to access with the integration. Provides 22 tools for managing Notion pages, databases, comments, and search."
+        }
+    ]
+}
