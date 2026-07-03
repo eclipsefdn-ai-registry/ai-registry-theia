@@ -1,0 +1,18 @@
+{
+    "skillId": "io.github.kepano",
+    "date": "2026-07-03",
+    "source": {
+        "url": "https://github.com/kepano/obsidian-skills.git",
+        "path": [
+            "skills/*"
+        ]
+    },
+    "installConfigs": [
+        {
+            "tool": "theia-ide"
+        },
+        {
+            "tool": "theia-ide-next"
+        }
+    ]
+}
