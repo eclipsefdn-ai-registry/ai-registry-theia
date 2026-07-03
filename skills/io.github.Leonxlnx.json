@@ -1,0 +1,18 @@
+{
+    "skillId": "io.github.Leonxlnx",
+    "date": "2026-07-03",
+    "source": {
+        "url": "https://github.com/Leonxlnx/taste-skill.git",
+        "path": [
+            "skills/*"
+        ]
+    },
+    "installConfigs": [
+        {
+            "tool": "theia-ide"
+        },
+        {
+            "tool": "theia-ide-next"
+        }
+    ]
+}

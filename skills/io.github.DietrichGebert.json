@@ -1,0 +1,18 @@
+{
+    "skillId": "io.github.DietrichGebert",
+    "date": "2026-07-03",
+    "source": {
+        "url": "https://github.com/DietrichGebert/ponytail.git",
+        "path": [
+            "skills/*"
+        ]
+    },
+    "installConfigs": [
+        {
+            "tool": "theia-ide"
+        },
+        {
+            "tool": "theia-ide-next"
+        }
+    ]
+}
