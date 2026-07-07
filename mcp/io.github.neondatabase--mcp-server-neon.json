@@ -1,0 +1,42 @@
+{
+    "serverId": "io.github.neondatabase/mcp-server-neon",
+    "date": "2026-07-07",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "neon": {
+                        "command": "npx",
+                        "args": [
+                            "-y",
+                            "@neondatabase/mcp-server-neon@latest"
+                        ],
+                        "env": {
+                            "NEON_API_KEY": "<your-neon-api-key>"
+                        }
+                    }
+                }
+            },
+            "instructions": "Replace <your-neon-api-key> with a Neon API key. Create one at https://console.neon.tech/app/settings/api-keys. Provides natural language interaction with Neon serverless Postgres databases — create projects, run queries, manage branches, and perform migrations."
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "neon": {
+                        "command": "npx",
+                        "args": [
+                            "-y",
+                            "@neondatabase/mcp-server-neon@latest"
+                        ],
+                        "env": {
+                            "NEON_API_KEY": "<your-neon-api-key>"
+                        }
+                    }
+                }
+            },
+            "instructions": "Replace <your-neon-api-key> with a Neon API key. Create one at https://console.neon.tech/app/settings/api-keys. Provides natural language interaction with Neon serverless Postgres databases — create projects, run queries, manage branches, and perform migrations."
+        }
+    ]
+}
