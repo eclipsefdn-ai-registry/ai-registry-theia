@@ -1,0 +1,42 @@
+{
+    "serverId": "io.github.e2b-dev/mcp-server",
+    "date": "2026-07-07",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "e2b": {
+                        "command": "npx",
+                        "args": [
+                            "-y",
+                            "@e2b/mcp-server@latest"
+                        ],
+                        "env": {
+                            "E2B_API_KEY": "<your-e2b-api-key>"
+                        }
+                    }
+                }
+            },
+            "instructions": "Replace <your-e2b-api-key> with an E2B API key. Create one at https://e2b.dev/dashboard — sign in, go to Settings > API Keys. Provides secure sandboxed code execution for Python and JavaScript without affecting your local environment."
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "e2b": {
+                        "command": "npx",
+                        "args": [
+                            "-y",
+                            "@e2b/mcp-server@latest"
+                        ],
+                        "env": {
+                            "E2B_API_KEY": "<your-e2b-api-key>"
+                        }
+                    }
+                }
+            },
+            "instructions": "Replace <your-e2b-api-key> with an E2B API key. Create one at https://e2b.dev/dashboard — sign in, go to Settings > API Keys. Provides secure sandboxed code execution for Python and JavaScript without affecting your local environment."
+        }
+    ]
+}

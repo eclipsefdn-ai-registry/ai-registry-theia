@@ -1,0 +1,42 @@
+{
+    "serverId": "io.github.brightdata-com/brightdata-mcp",
+    "date": "2026-07-07",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "brightdata": {
+                        "command": "npx",
+                        "args": [
+                            "-y",
+                            "@brightdata/mcp@latest"
+                        ],
+                        "env": {
+                            "API_TOKEN": "<your-brightdata-api-token>"
+                        }
+                    }
+                }
+            },
+            "instructions": "Replace <your-brightdata-api-token> with a Bright Data API token from https://brightdata.com/cp/setting/users. Provides real-time web data collection, SERP results, and structured data extraction. Free tier available (5,000 credits/month, no credit card required)."
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "brightdata": {
+                        "command": "npx",
+                        "args": [
+                            "-y",
+                            "@brightdata/mcp@latest"
+                        ],
+                        "env": {
+                            "API_TOKEN": "<your-brightdata-api-token>"
+                        }
+                    }
+                }
+            },
+            "instructions": "Replace <your-brightdata-api-token> with a Bright Data API token from https://brightdata.com/cp/setting/users. Provides real-time web data collection, SERP results, and structured data extraction. Free tier available (5,000 credits/month, no credit card required)."
+        }
+    ]
+}
