@@ -1,0 +1,18 @@
+{
+    "skillId": "io.github.eclipsesource",
+    "date": "2026-07-08",
+    "source": {
+        "url": "https://github.com/eclipsesource/ai-coding-cheat-sheet.git",
+        "path": [
+            "skills/*"
+        ]
+    },
+    "installConfigs": [
+        {
+            "tool": "theia-ide"
+        },
+        {
+            "tool": "theia-ide-next"
+        }
+    ]
+}
