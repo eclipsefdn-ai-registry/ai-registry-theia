@@ -17,5 +17,10 @@
       "skillInstallUrlPrefix": "theia-next://install-skill?id=",
       "mcpInstallUrlPrefix": "theia-next://install-mcp?id="
     }
+  ],
+  "trusts": [
+    { "org": "anthropic", "artifactTypes": { "skills": {} } },
+    { "org": "openai", "artifactTypes": { "skills": {} } },
+    { "org": "aws", "artifactTypes": { "skills": {} } }
   ]
 }
