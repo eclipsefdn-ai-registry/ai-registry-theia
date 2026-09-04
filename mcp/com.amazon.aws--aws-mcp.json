@@ -1,0 +1,28 @@
+{
+    "serverId": "com.amazon.aws/aws-mcp",
+    "date": "2026-09-04",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "aws": {
+                        "serverUrl": "https://aws-mcp.us-east-1.api.aws/mcp?oauth=initialize"
+                    }
+                }
+            },
+            "instructions": "No API key is required: on first connection Theia opens a browser to authorize access to your AWS account via OAuth, then stores the resulting token automatically. Provides AWS knowledge and tools for building, deploying, and managing cloud infrastructure."
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "aws": {
+                        "serverUrl": "https://aws-mcp.us-east-1.api.aws/mcp?oauth=initialize"
+                    }
+                }
+            },
+            "instructions": "No API key is required: on first connection Theia opens a browser to authorize access to your AWS account via OAuth, then stores the resulting token automatically. Provides AWS knowledge and tools for building, deploying, and managing cloud infrastructure."
+        }
+    ]
+}
