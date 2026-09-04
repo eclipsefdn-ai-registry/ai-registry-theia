@@ -6,7 +6,6 @@
         "path": [
             "skills/engineering/*",
             "skills/misc/*",
-            "skills/personal/*",
             "skills/productivity/*"
         ]
     },

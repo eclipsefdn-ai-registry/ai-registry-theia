@@ -1,0 +1,42 @@
+{
+    "serverId": "com.docker/hub-mcp",
+    "date": "2026-09-04",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "dockerhub": {
+                        "command": "docker",
+                        "args": [
+                            "run",
+                            "-i",
+                            "--rm",
+                            "mcp/dockerhub",
+                            "--transport=stdio"
+                        ]
+                    }
+                }
+            },
+            "instructions": "Requires Docker to be installed and running locally. Provides repository search, tag lookup, namespace listing, and repository management tools backed by the Docker Hub API. No credentials needed for public repository access."
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "dockerhub": {
+                        "command": "docker",
+                        "args": [
+                            "run",
+                            "-i",
+                            "--rm",
+                            "mcp/dockerhub",
+                            "--transport=stdio"
+                        ]
+                    }
+                }
+            },
+            "instructions": "Requires Docker to be installed and running locally. Provides repository search, tag lookup, namespace listing, and repository management tools backed by the Docker Hub API. No credentials needed for public repository access."
+        }
+    ]
+}
