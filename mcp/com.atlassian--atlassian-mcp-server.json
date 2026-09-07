@@ -1,6 +1,6 @@
 {
     "serverId": "com.atlassian/atlassian-mcp-server",
-    "date": "2026-06-10",
+    "date": "2026-09-04",
     "installConfigs": [
         {
             "tool": "theia-ide",

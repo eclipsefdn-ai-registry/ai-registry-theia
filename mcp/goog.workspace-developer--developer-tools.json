@@ -1,0 +1,14 @@
+{
+    "serverId": "goog.workspace-developer/developer-tools",
+    "date": "2026-09-04",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": "derived"
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": "derived"
+        }
+    ]
+}

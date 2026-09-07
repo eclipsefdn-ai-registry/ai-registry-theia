@@ -1,0 +1,14 @@
+{
+    "serverId": "io.github.googleapis/mcp-toolbox",
+    "date": "2026-09-04",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": "derived"
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": "derived"
+        }
+    ]
+}
