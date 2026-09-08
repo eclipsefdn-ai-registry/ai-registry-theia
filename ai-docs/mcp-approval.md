@@ -61,6 +61,37 @@ Each server entry supports two modes: **local** (stdio) and **remote** (SSE/HTTP
 | `serverAuthToken` | string | Authentication token. Use `<placeholder>` value. |
 | `serverAuthTokenHeader` | string | Optional. Header name for the token. Defaults to `Authorization` with `Bearer` prefix if omitted. |
 | `headers` | object | Optional additional headers included with each request. |
+| `oauth` | object | Optional OAuth 2.x configuration. See below. |
+
+**`serverAuthToken` and `headers` work together, they are not alternatives.** The auth token goes in `serverAuthToken` (without the `Bearer ` prefix — Theia adds it) and every other header goes in `headers`. See `mcp/io.github.grafana--mcp-grafana.json` for an example using both.
+
+### OAuth (`oauth`)
+
+All fields are optional; include only what the server actually requires. Many servers support dynamic client registration and need none of them — in that case omit `oauth` entirely rather than adding an empty object, since Theia falls through to discovery/DCR on a 401 anyway.
+
+| Field | Type | Description |
+|:------|:-----|:------------|
+| `clientId` | string | Pre-registered OAuth client ID. Omit to let Theia attempt Dynamic Client Registration. |
+| `clientSecret` | string | Client secret for confidential clients. Only used together with `clientId`; ignored during dynamic client registration. Use a `<placeholder>` value, never a real secret. |
+| `scopes` | string[] | Scopes to request, one per entry. |
+| `authorizationServer` | string | URL of the authorization server metadata document, overriding the default discovery chain. |
+| `resource` | string | Resource indicator (RFC 8707), for servers that require it. |
+
+```json
+{
+  "servers": {
+    "<server-name>": {
+      "serverUrl": "<server-url>",
+      "oauth": {
+        "clientId": "<clientId>",
+        "scopes": ["read", "write"]
+      }
+    }
+  }
+}
+```
+
+Note the field name: the registry's generic config calls the metadata URL `authServerMetadataUrl`, Theia calls it `authorizationServer`. The transform in `ai-registry-core/src/mcp-config-templates/theia.ts` handles that translation when a config is derived — you only need to care about it when hand-writing a `config` here.
 
 ### Fields to omit
 
@@ -74,7 +105,8 @@ Each server entry supports two modes: **local** (stdio) and **remote** (SSE/HTTP
 - For `command`, prefer `npx` for npm packages, `uvx` for Python packages.
 - Always include `"-y"` in `args` when using `npx` to skip the install prompt.
 - Append `@latest` to the package name in `args` to ensure the latest version.
-- Use `<placeholder>` syntax for any secrets or tokens so the user knows to replace them.
+- Use `<placeholder>` syntax for any secrets or tokens so the user knows to replace them. Theia does **not** expand `${VAR}` references — when a config is derived from a registry generic config, the transform rewrites `${TOKEN}` to `<TOKEN>` for exactly this reason.
+- Theia has no `cwd` field and no WebSocket transport. A generic config using `cwd` gets it dropped during derivation; one using `type: "ws"` produces no Theia card at all.
 - Add an `instructions` field to the `installConfig` explaining what the user needs to configure.
 
 ## installUrl (one-click install for Theia)
