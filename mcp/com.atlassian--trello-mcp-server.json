@@ -1,0 +1,28 @@
+{
+    "serverId": "com.atlassian/trello-mcp-server",
+    "date": "2026-09-12",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "trello": {
+                        "serverUrl": "https://mcp.trello.com/v1"
+                    }
+                }
+            },
+            "instructions": "Official remote Trello MCP server. No API key is required: on first connection Theia opens a browser to authorize access to your Trello account via OAuth, then stores the resulting token automatically. Provides tools to manage Trello boards, lists, cards, checklists, search, and Planner focus-time events."
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "trello": {
+                        "serverUrl": "https://mcp.trello.com/v1"
+                    }
+                }
+            },
+            "instructions": "Official remote Trello MCP server. No API key is required: on first connection Theia opens a browser to authorize access to your Trello account via OAuth, then stores the resulting token automatically. Provides tools to manage Trello boards, lists, cards, checklists, search, and Planner focus-time events."
+        }
+    ]
+}

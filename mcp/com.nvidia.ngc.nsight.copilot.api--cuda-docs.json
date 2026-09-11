@@ -1,0 +1,28 @@
+{
+    "serverId": "com.nvidia.ngc.nsight.copilot.api/cuda-docs",
+    "date": "2026-09-12",
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": {
+                "servers": {
+                    "cuda-docs": {
+                        "serverUrl": "https://api.copilot.nsight.ngc.nvidia.com/mcp/cuda-docs"
+                    }
+                }
+            },
+            "instructions": "Official NVIDIA remote MCP server for searching CUDA documentation and code samples. No API key is required."
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": {
+                "servers": {
+                    "cuda-docs": {
+                        "serverUrl": "https://api.copilot.nsight.ngc.nvidia.com/mcp/cuda-docs"
+                    }
+                }
+            },
+            "instructions": "Official NVIDIA remote MCP server for searching CUDA documentation and code samples. No API key is required."
+        }
+    ]
+}
