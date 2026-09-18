@@ -25,6 +25,7 @@
     { "org": "openai", "artifactTypes": { "skills": {} } },
     { "org": "aws", "artifactTypes": { "skills": {} } },
     { "org": "google", "artifactTypes": { "skills": {}, "mcp": {}, "agents": {} } },
-    { "org": "eclipsesource", "artifactTypes": { "mcp": {} } }
+    { "org": "eclipsesource", "artifactTypes": { "mcp": {} } },
+    { "org": "ai-registry", "artifactTypes": { "skills": {} } }
   ]
 }
