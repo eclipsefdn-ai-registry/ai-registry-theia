@@ -9,13 +9,15 @@
       "id": "theia-ide",
       "name": "Theia IDE",
       "skillInstallUrlPrefix": "theia://install-skill?id=",
-      "mcpInstallUrlPrefix": "theia://install-mcp?id="
+      "mcpInstallUrlPrefix": "theia://install-mcp?id=",
+      "pluginInstallUrlPrefix": "theia://install-plugin?id="
     },
     {
       "id": "theia-ide-next",
       "name": "Theia IDE Next",
       "skillInstallUrlPrefix": "theia-next://install-skill?id=",
-      "mcpInstallUrlPrefix": "theia-next://install-mcp?id="
+      "mcpInstallUrlPrefix": "theia-next://install-mcp?id=",
+      "pluginInstallUrlPrefix": "theia-next://install-plugin?id="
     }
   ],
   "trusts": [
