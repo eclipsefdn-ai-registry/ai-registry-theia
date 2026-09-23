@@ -1,6 +1,6 @@
 {
-    "serverId": "io.github.neondatabase/mcp-server-neon",
-    "date": "2026-07-07",
+    "serverId": "com.neon/mcp",
+    "date": "2026-09-18",
     "installConfigs": [
         {
             "tool": "theia-ide",
