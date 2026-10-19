@@ -53,7 +53,7 @@ Ask the user: "Should I apply these changes?"
 
 If yes, for each change:
 - **Removals**: delete the approval file from `mcp/` or `skills/`.
-- **MCP additions**: read `organization.json` and `ai-docs/mcp-approval.md`, then read 1-2 existing files in `mcp/` as format reference. Create the new file in `mcp/` following the naming convention (`/` → `--`). Include `installConfigs` for both `theia-ide` and `theia-ide-next` with identical config. Omit `installUrl` (the org's `mcpInstallUrlPrefix` handles it).
+- **MCP additions**: read `organization.json` and `ai-docs/mcp-approval.md`, then read 1-2 existing files in `mcp/` that have a root `config` as format reference. Create the new file in `mcp/` following the naming convention (`/` → `--`). Write it the way `ai-docs/mcp-approval.md` describes: a generic `config`, and `installConfigs` for both `theia-ide` and `theia-ide-next` derived from it. Omit `installUrl` (the org's `mcpInstallUrlPrefix` handles it).
 - **Skill additions**: read 1-2 existing files in `skills/` as format reference (the format is simple: `skillId`, `date`, `source.url` plus optional `source.path` — a single path, array of paths, or a `dir/*` glob for multi-skill repos — and `installConfigs` listing `theia-ide` and `theia-ide-next` with no `config` needed). Create the new file in `skills/` following the naming convention (`/` → `--`).
 
 Then run `AI_REGISTRY_CORE_DIR=../ai-registry-core npm run validate:local` (or `npm run validate`) and report the result.
