@@ -1,42 +1,27 @@
 {
     "serverId": "io.github.brave/brave-search-mcp-server",
     "date": "2026-05-27",
+    "config": {
+        "type": "stdio",
+        "command": "npx",
+        "args": [
+            "-y",
+            "@brave/brave-search-mcp-server@latest"
+        ],
+        "env": {
+            "BRAVE_API_KEY": "${BRAVE_API_KEY}"
+        },
+        "notes": "BRAVE_API_KEY holds a Brave Search API key from https://api.search.brave.com/. Provides web, news, image, video, and local search via the Brave Search API.",
+        "serverKey": "brave-search"
+    },
     "installConfigs": [
         {
             "tool": "theia-ide",
-            "config": {
-                "servers": {
-                    "brave-search": {
-                        "command": "npx",
-                        "args": [
-                            "-y",
-                            "@brave/brave-search-mcp-server@latest"
-                        ],
-                        "env": {
-                            "BRAVE_API_KEY": "<your-brave-search-api-key>"
-                        }
-                    }
-                }
-            },
-            "instructions": "Replace <your-brave-search-api-key> with a Brave Search API key from https://api.search.brave.com/. Provides web, news, image, video, and local search via the Brave Search API."
+            "config": "derived"
         },
         {
             "tool": "theia-ide-next",
-            "config": {
-                "servers": {
-                    "brave-search": {
-                        "command": "npx",
-                        "args": [
-                            "-y",
-                            "@brave/brave-search-mcp-server@latest"
-                        ],
-                        "env": {
-                            "BRAVE_API_KEY": "<your-brave-search-api-key>"
-                        }
-                    }
-                }
-            },
-            "instructions": "Replace <your-brave-search-api-key> with a Brave Search API key from https://api.search.brave.com/. Provides web, news, image, video, and local search via the Brave Search API."
+            "config": "derived"
         }
     ]
 }
