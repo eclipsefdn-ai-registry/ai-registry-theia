@@ -1,42 +1,27 @@
 {
     "serverId": "com.docker/hub-mcp",
     "date": "2026-09-04",
+    "config": {
+        "type": "stdio",
+        "command": "docker",
+        "args": [
+            "run",
+            "-i",
+            "--rm",
+            "mcp/dockerhub",
+            "--transport=stdio"
+        ],
+        "notes": "Requires Docker to be installed and running locally. Provides repository search, tag lookup, namespace listing, and repository management tools backed by the Docker Hub API. No credentials needed for public repository access.",
+        "serverKey": "dockerhub"
+    },
     "installConfigs": [
         {
             "tool": "theia-ide",
-            "config": {
-                "servers": {
-                    "dockerhub": {
-                        "command": "docker",
-                        "args": [
-                            "run",
-                            "-i",
-                            "--rm",
-                            "mcp/dockerhub",
-                            "--transport=stdio"
-                        ]
-                    }
-                }
-            },
-            "instructions": "Requires Docker to be installed and running locally. Provides repository search, tag lookup, namespace listing, and repository management tools backed by the Docker Hub API. No credentials needed for public repository access."
+            "config": "derived"
         },
         {
             "tool": "theia-ide-next",
-            "config": {
-                "servers": {
-                    "dockerhub": {
-                        "command": "docker",
-                        "args": [
-                            "run",
-                            "-i",
-                            "--rm",
-                            "mcp/dockerhub",
-                            "--transport=stdio"
-                        ]
-                    }
-                }
-            },
-            "instructions": "Requires Docker to be installed and running locally. Provides repository search, tag lookup, namespace listing, and repository management tools backed by the Docker Hub API. No credentials needed for public repository access."
+            "config": "derived"
         }
     ]
 }

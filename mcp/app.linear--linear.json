@@ -1,28 +1,23 @@
 {
     "serverId": "app.linear/linear",
     "date": "2026-06-10",
+    "config": {
+        "type": "sse",
+        "url": "https://mcp.linear.app/sse",
+        "oauth": {},
+        "notes": "Remote Linear MCP server. No API key is required: on first connection your client opens a browser to authorize access to your Linear workspace via OAuth. Provides tools to manage Linear issues, projects, and teams.",
+        "serverKey": "linear"
+    },
     "installConfigs": [
         {
             "tool": "theia-ide",
-            "config": {
-                "servers": {
-                    "linear": {
-                        "serverUrl": "https://mcp.linear.app/sse"
-                    }
-                }
-            },
-            "instructions": "Remote Linear MCP server. No API key is required: on first connection Theia opens a browser to authorize access to your Linear workspace via OAuth, then stores the resulting token automatically. Provides tools to manage Linear issues, projects, and teams."
+            "config": "derived",
+            "instructions": "No API key is required: on first connection Theia opens a browser to authorize access to your Linear workspace via OAuth, then stores the resulting token automatically."
         },
         {
             "tool": "theia-ide-next",
-            "config": {
-                "servers": {
-                    "linear": {
-                        "serverUrl": "https://mcp.linear.app/sse"
-                    }
-                }
-            },
-            "instructions": "Remote Linear MCP server. No API key is required: on first connection Theia opens a browser to authorize access to your Linear workspace via OAuth, then stores the resulting token automatically. Provides tools to manage Linear issues, projects, and teams."
+            "config": "derived",
+            "instructions": "No API key is required: on first connection Theia opens a browser to authorize access to your Linear workspace via OAuth, then stores the resulting token automatically."
         }
     ]
 }

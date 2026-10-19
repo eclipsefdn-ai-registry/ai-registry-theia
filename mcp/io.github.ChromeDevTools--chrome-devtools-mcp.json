@@ -1,42 +1,27 @@
 {
     "serverId": "io.github.ChromeDevTools/chrome-devtools-mcp",
     "date": "2026-05-12",
+    "config": {
+        "type": "stdio",
+        "command": "npx",
+        "args": [
+            "-y",
+            "chrome-devtools-mcp@latest",
+            "--cdp-endpoint",
+            "http://127.0.0.1:9222",
+            "--no-usage-statistics"
+        ],
+        "notes": "Ensure Chrome is running with remote debugging on port 9222 (e.g., --remote-debugging-port=9222)",
+        "serverKey": "chrome-devtools"
+    },
     "installConfigs": [
         {
             "tool": "theia-ide",
-            "config": {
-                "servers": {
-                    "chrome-devtools": {
-                        "command": "npx",
-                        "args": [
-                            "-y",
-                            "chrome-devtools-mcp@latest",
-                            "--cdp-endpoint",
-                            "http://127.0.0.1:9222",
-                            "--no-usage-statistics"
-                        ]
-                    }
-                }
-            },
-            "instructions": "Ensure Chrome is running with remote debugging on port 9222 (e.g., --remote-debugging-port=9222)"
+            "config": "derived"
         },
         {
             "tool": "theia-ide-next",
-            "config": {
-                "servers": {
-                    "chrome-devtools": {
-                        "command": "npx",
-                        "args": [
-                            "-y",
-                            "chrome-devtools-mcp@latest",
-                            "--cdp-endpoint",
-                            "http://127.0.0.1:9222",
-                            "--no-usage-statistics"
-                        ]
-                    }
-                }
-            },
-            "instructions": "Ensure Chrome is running with remote debugging on port 9222 (e.g., --remote-debugging-port=9222)"
+            "config": "derived"
         }
     ]
 }
