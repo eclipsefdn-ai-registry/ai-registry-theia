@@ -1,30 +1,23 @@
 {
     "serverId": "com.stripe/mcp",
     "date": "2026-06-08",
+    "config": {
+        "type": "streamable-http",
+        "url": "https://mcp.stripe.com",
+        "headers": {
+            "Authorization": "Bearer ${STRIPE_API_KEY}"
+        },
+        "notes": "STRIPE_API_KEY holds your Stripe API key (e.g., sk_live_... or a restricted key). You can find or create API keys at https://dashboard.stripe.com/apikeys. The key is sent as a Bearer token in the Authorization header.",
+        "serverKey": "stripe"
+    },
     "installConfigs": [
         {
             "tool": "theia-ide",
-            "config": {
-                "servers": {
-                    "stripe": {
-                        "serverUrl": "https://mcp.stripe.com",
-                        "serverAuthToken": "<stripe-api-key>"
-                    }
-                }
-            },
-            "instructions": "Replace <stripe-api-key> with your Stripe API key (e.g., sk_live_... or a restricted key). You can find or create API keys at https://dashboard.stripe.com/apikeys. The key is sent as 'Authorization: Bearer <key>'."
+            "config": "derived"
         },
         {
             "tool": "theia-ide-next",
-            "config": {
-                "servers": {
-                    "stripe": {
-                        "serverUrl": "https://mcp.stripe.com",
-                        "serverAuthToken": "<stripe-api-key>"
-                    }
-                }
-            },
-            "instructions": "Replace <stripe-api-key> with your Stripe API key (e.g., sk_live_... or a restricted key). You can find or create API keys at https://dashboard.stripe.com/apikeys. The key is sent as 'Authorization: Bearer <key>'."
+            "config": "derived"
         }
     ]
 }

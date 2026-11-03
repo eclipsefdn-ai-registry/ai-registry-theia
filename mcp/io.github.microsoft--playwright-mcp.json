@@ -1,36 +1,24 @@
 {
     "serverId": "io.github.microsoft/playwright-mcp",
     "date": "2026-05-27",
+    "config": {
+        "type": "stdio",
+        "command": "npx",
+        "args": [
+            "-y",
+            "@playwright/mcp@latest"
+        ],
+        "notes": "Provides browser automation tools using Playwright. Requires Node.js. On first run, Playwright may download browser binaries; run 'npx playwright install' beforehand to pre-fetch them.",
+        "serverKey": "playwright"
+    },
     "installConfigs": [
         {
             "tool": "theia-ide",
-            "config": {
-                "servers": {
-                    "playwright": {
-                        "command": "npx",
-                        "args": [
-                            "-y",
-                            "@playwright/mcp@latest"
-                        ]
-                    }
-                }
-            },
-            "instructions": "Provides browser automation tools using Playwright. Requires Node.js. On first run, Playwright may download browser binaries; run 'npx playwright install' beforehand to pre-fetch them."
+            "config": "derived"
         },
         {
             "tool": "theia-ide-next",
-            "config": {
-                "servers": {
-                    "playwright": {
-                        "command": "npx",
-                        "args": [
-                            "-y",
-                            "@playwright/mcp@latest"
-                        ]
-                    }
-                }
-            },
-            "instructions": "Provides browser automation tools using Playwright. Requires Node.js. On first run, Playwright may download browser binaries; run 'npx playwright install' beforehand to pre-fetch them."
+            "config": "derived"
         }
     ]
 }

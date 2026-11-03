@@ -1,30 +1,23 @@
 {
     "serverId": "com.apify/apify-mcp-server",
     "date": "2026-06-01",
+    "config": {
+        "type": "streamable-http",
+        "url": "https://mcp.apify.com",
+        "headers": {
+            "Authorization": "Bearer ${APIFY_TOKEN}"
+        },
+        "notes": "APIFY_TOKEN holds an Apify API token from https://console.apify.com/account/integrations. It is sent as a Bearer token in the Authorization header. Exposes Apify actors, datasets, key-value stores, and run management to the assistant.",
+        "serverKey": "apify"
+    },
     "installConfigs": [
         {
             "tool": "theia-ide",
-            "config": {
-                "servers": {
-                    "apify": {
-                        "serverUrl": "https://mcp.apify.com",
-                        "serverAuthToken": "<your-apify-api-token>"
-                    }
-                }
-            },
-            "instructions": "Replace <your-apify-api-token> with an Apify API token from https://console.apify.com/account/integrations. The token is sent as 'Authorization: Bearer <token>'. Exposes Apify actors, datasets, key-value stores, and run management to the assistant."
+            "config": "derived"
         },
         {
             "tool": "theia-ide-next",
-            "config": {
-                "servers": {
-                    "apify": {
-                        "serverUrl": "https://mcp.apify.com",
-                        "serverAuthToken": "<your-apify-api-token>"
-                    }
-                }
-            },
-            "instructions": "Replace <your-apify-api-token> with an Apify API token from https://console.apify.com/account/integrations. The token is sent as 'Authorization: Bearer <token>'. Exposes Apify actors, datasets, key-value stores, and run management to the assistant."
+            "config": "derived"
         }
     ]
 }

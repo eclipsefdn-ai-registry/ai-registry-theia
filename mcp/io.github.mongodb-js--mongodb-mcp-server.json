@@ -1,40 +1,26 @@
 {
     "serverId": "io.github.mongodb-js/mongodb-mcp-server",
     "date": "2026-06-01",
+    "config": {
+        "type": "stdio",
+        "command": "npx",
+        "args": [
+            "-y",
+            "mongodb-mcp-server@latest",
+            "--connectionString",
+            "<your-mongodb-connection-string>"
+        ],
+        "notes": "Replace <your-mongodb-connection-string> with a MongoDB connection URI (e.g., mongodb+srv://user:pass@cluster.mongodb.net/). Provides MongoDB query, aggregation, and admin tools. Use a read-only user for safer access.",
+        "serverKey": "mongodb"
+    },
     "installConfigs": [
         {
             "tool": "theia-ide",
-            "config": {
-                "servers": {
-                    "mongodb": {
-                        "command": "npx",
-                        "args": [
-                            "-y",
-                            "mongodb-mcp-server@latest",
-                            "--connectionString",
-                            "<your-mongodb-connection-string>"
-                        ]
-                    }
-                }
-            },
-            "instructions": "Replace <your-mongodb-connection-string> with a MongoDB connection URI (e.g., mongodb+srv://user:pass@cluster.mongodb.net/). Provides MongoDB query, aggregation, and admin tools. Use a read-only user for safer access."
+            "config": "derived"
         },
         {
             "tool": "theia-ide-next",
-            "config": {
-                "servers": {
-                    "mongodb": {
-                        "command": "npx",
-                        "args": [
-                            "-y",
-                            "mongodb-mcp-server@latest",
-                            "--connectionString",
-                            "<your-mongodb-connection-string>"
-                        ]
-                    }
-                }
-            },
-            "instructions": "Replace <your-mongodb-connection-string> with a MongoDB connection URI (e.g., mongodb+srv://user:pass@cluster.mongodb.net/). Provides MongoDB query, aggregation, and admin tools. Use a read-only user for safer access."
+            "config": "derived"
         }
     ]
 }

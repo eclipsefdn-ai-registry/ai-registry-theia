@@ -1,28 +1,23 @@
 {
     "serverId": "com.atlassian/atlassian-mcp-server",
     "date": "2026-06-10",
+    "config": {
+        "type": "sse",
+        "url": "https://mcp.atlassian.com/v1/sse",
+        "oauth": {},
+        "notes": "Remote Atlassian MCP server for Jira and Confluence Cloud. No API key is required: on first connection your client opens a browser to authorize access to your Atlassian site via OAuth.",
+        "serverKey": "atlassian"
+    },
     "installConfigs": [
         {
             "tool": "theia-ide",
-            "config": {
-                "servers": {
-                    "atlassian": {
-                        "serverUrl": "https://mcp.atlassian.com/v1/sse"
-                    }
-                }
-            },
-            "instructions": "Remote Atlassian MCP server for Jira and Confluence Cloud. No API key is required: on first connection Theia opens a browser to authorize access to your Atlassian site via OAuth, then stores the resulting token automatically."
+            "config": "derived",
+            "instructions": "No API key is required: on first connection Theia opens a browser to authorize access to your Atlassian site via OAuth, then stores the resulting token automatically."
         },
         {
             "tool": "theia-ide-next",
-            "config": {
-                "servers": {
-                    "atlassian": {
-                        "serverUrl": "https://mcp.atlassian.com/v1/sse"
-                    }
-                }
-            },
-            "instructions": "Remote Atlassian MCP server for Jira and Confluence Cloud. No API key is required: on first connection Theia opens a browser to authorize access to your Atlassian site via OAuth, then stores the resulting token automatically."
+            "config": "derived",
+            "instructions": "No API key is required: on first connection Theia opens a browser to authorize access to your Atlassian site via OAuth, then stores the resulting token automatically."
         }
     ]
 }
