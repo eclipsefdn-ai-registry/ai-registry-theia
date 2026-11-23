@@ -1,6 +1,10 @@
 {
     "serverId": "com.asana/mcp",
     "date": "2026-06-10",
+    "metadata": {
+        "name": "Asana",
+        "description": "Remote MCP server for Asana, letting AI agents read and manage tasks, projects, portfolios and goals in an Asana workspace."
+    },
     "config": {
         "type": "streamable-http",
         "url": "https://mcp.asana.com/v2/mcp",

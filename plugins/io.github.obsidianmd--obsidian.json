@@ -1,0 +1,16 @@
+{
+    "pluginId": "io.github.obsidianmd/obsidian",
+    "date": "2026-11-23",
+    "source": {
+        "url": "https://github.com/obsidianmd/obsidian-skills.git",
+        "path": "plugins/obsidian"
+    },
+    "installConfigs": [
+        {
+            "tool": "theia-ide"
+        },
+        {
+            "tool": "theia-ide-next"
+        }
+    ]
+}

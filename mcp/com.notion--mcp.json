@@ -1,0 +1,21 @@
+{
+    "serverId": "com.notion/mcp",
+    "date": "2026-11-23",
+    "config": {
+        "type": "streamable-http",
+        "url": "https://mcp.notion.com/mcp",
+        "oauth": {},
+        "notes": "Remote Notion MCP server, Notion's own hosted service. Authorization is OAuth 2.1 with dynamic client registration, so no pre-registered app is needed: on first connection your client registers itself and opens a browser to authorize the workspace. Replaces the self-hosted io.github.makenotion/notion-mcp-server, whose README directs users here.",
+        "serverKey": "notion"
+    },
+    "installConfigs": [
+        {
+            "tool": "theia-ide",
+            "config": "derived"
+        },
+        {
+            "tool": "theia-ide-next",
+            "config": "derived"
+        }
+    ]
+}
