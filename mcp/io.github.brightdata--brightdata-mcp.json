@@ -1,6 +1,6 @@
 {
-    "serverId": "io.github.brightdata-com/brightdata-mcp",
-    "date": "2026-07-07",
+    "serverId": "io.github.brightdata/brightdata-mcp",
+    "date": "2026-11-23",
     "config": {
         "type": "stdio",
         "command": "npx",
